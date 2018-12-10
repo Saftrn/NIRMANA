@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    color: rgb(66, 33, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 200vh;
+}
+
+
+.navkanan {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    width: 160px;
+    background-color: #EC9C83;
+}
+
+#logo {
+    border-bottom: 5px solid #A05B6C;
+    height: 50px;
+    width: 50%;
+    padding: 5%;
+    padding-left: 28px;
+    padding-right: 0px;
+    margin-left: 13%;
+}
+
+#menu1,
+#menu2 {
+    margin-left: 13%;
+    width: 50%;
+    padding: 7%;
+    padding-top: 6%;
+    height: 175px;
+}
+
+#menu2 {
+    border-top: 5px solid #A05B6C;
+    padding-top: 4%;
+}
+
+.tempat {
+    margin-bottom: 10px;
+}
+
+#aikon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+#txt {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.album {
+    position: fixed;
+    bottom: 0;
+    width: 160px;
+    height: 35%;
+}
+.audioPlayer {
+    position: fixed;
+    bottom: 0;
+    background-color: #A05B6C;
+    width: 100%;
+    height: 11%;
+}
+.wadah {
+    display: inline-block;
+    margin: 15px;
+    width: 19vw;
+    /* border: 1px solid #F2E7E4; */
+}
+
+.wadah2 {
+    position: absolute;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 5%;
+    width: 45vw;
+    height: 7vh;
+}
+
+.wadah3 {
+    float: right;
+    display: inline-block;
+    margin: 1%;
+    margin-right: 5%;
+    width: 11vw;
+    height: 5vh;
+}
+
+#judul,
+#artis {
+    width: 11vw;
+}
+
+#judul {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 13px;
+    /* border: 1px solid #F2E7E4; */
+    width: 200px;
+    height: 20px;
+}
+
+#like {
+    height: 13px;
+}
+
+#artis {
+    margin-top: 3px;
+    color: #FBB03B;
+    font-size: 11px;
+}
+
+.aikon {
+    margin-left: 10px;
+    display: inline-block;
+    height: 9px;
+    width: 15px;
+}
+
+#shuffle {
+    margin-left: 37%;
+}
+
+.dura {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    height: 55%;
+}
+
+#menit,
+#durasi {
+    margin-top: 0;
+}
+
+#durasi {
+    width: 80%;
+    height: 5px;
+    background-color: #F2E7E4;
+}
+
+#suara {
+    margin-top: 10px;
+    width: 30px;
+}
+
+#menit {
+    margin-right: 2%;
+    color: aliceblue;
+    font-size: 11px;
+}
+
+#volume {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid #42210B;
+    background-color: #42210B;
+    border-radius: 25px;
+    width: 7%;
+    height: 8%;
+}
+
+.music {
+    display: inline-block;
+    border: 1px solid #F2E7E4;
+    width: 10vw;
+    height: 0%;
+}
+
+.barCari{
+    top: 0;
+    display: inline-block;
+    background-image: url("../icon/a.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.cari{
+    text-align: center;
+    margin-top: 13%;
+    margin-left: 43%;
+    position: fixed;
+}
+.fontCari{
+    font-family: century gothic;
+}
+#txt a{
+    text-decoration: none;
+}
+#txt a:hover{
+    color: #A05B6C;
+}
+
+.navAtas{
+    position: fixed;
+    width: 85%;
+    margin-left: 160px;
+    padding: 2%;
+    padding-right: 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.user{
+    float: right;
+    font-family: century gothic;
+}
+input{
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+.dropbtn{
+    width: 100%;
+    padding-left: 17%;
+}
+.dropdown{
+    position: relative;
+    display: inline;
+    float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;   
+}
+.dropdown-content a {
+    padding: 13% 15%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: violet;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.ikon{
+    width: 23%;
+    height: 23%;
+}
+.ikon1{
+    width: 35%;
+    height: 35%;
+}

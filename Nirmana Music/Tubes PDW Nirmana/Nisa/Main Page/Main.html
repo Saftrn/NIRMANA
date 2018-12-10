@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Nirmana music Streaming music tanpa batas tanpa buffering</title>
+    <link rel="Stylesheet" type="text/css" href="Main.css" media="screen">
+    <script src="../AudioPlayer.js"></script>
+    <script src="../jquery-3.3.1.min.js">
+        $(document).ready(function(){
+			$(".player").hide();
+                $(".toggle").click(
+                    function(){
+                        $(".player").slideToggle();
+                    }
+                );
+            });
+    </script>
+</head>
+
+<body>
+    <div class="navAtas">
+        <ul>
+            <li><a href="../../Tubes Arinda/Main Page/Search Page New.html" target="_blank" style="text-decoration: none; color:#42210B"><input
+                        type="text" placeholder="Search" class="cari"></a></li>
+            <li class="dropdown">
+                <div class="dropbtn"><a href="#"><img src="../icon/Account.png" height="30px" class="ikon"></a></div>
+                <div class="dropdown-content">
+                    <a href="#"><img src="../icon/Setting.png" height="30px" class="ikon1"></a>
+                    <a href="#"><img src="../icon/Mail.png" height="30px" class="ikon1"></a>
+                </div>
+            </li>
+            <li class="user"> User </li>
+        </ul>
+    </div>
+
+    <div class="navkanan">
+        <div id="logo">
+            <img src="../icon/Logo.png" height="100%">
+        </div>
+        <div id="menu1">
+            <div class="tempat">
+                <a href="../Main Page/Main.html" style="text-decoration: none; color:#42210B">
+                    <div id="aikon"><img src="../icon/Discover.png" width="100%"></div>
+                    <div id="txt">
+                        <p>Discover</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tempat">
+                <a href="../../Tubes Arinda/Main Page/Favorite Page New.html" style="text-decoration: none; color:#42210B">
+                    <div id="aikon"><img src="../icon/Favorite.png" width="100%"></div>
+                    <div id="txt">
+                        <p>Favorite</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tempat">
+                <a href="../../Tubes Arinda/Main Page/Album.html" style="text-decoration: none; color:#42210B">
+                    <div id="aikon"><img src="../icon/Album.png" width="100%"></div>
+                    <div id="txt">
+                        <p>Album</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tempat">
+                <a href="../../PDW/Artists/HTML&CSS/Artist.html" style="text-decoration: none; color:#42210B">
+                    <div id="aikon"><img src="../icon/Artist.png" height="100%"></div>
+                    <div id="txt">
+                        <p>Artist</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tempat">
+                <a href="../../PDW/Genre/HTML&CSS/Genre.html" style="text-decoration: none; color:#42210B">
+                    <div id="aikon"><img src="../icon/Genre.png" width="100%"></div>
+                    <div id="txt">
+                        <p>Genre</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="tempat">
+                <div id="aikon"><img src="../icon/Playlist.png" width="100%"></div>
+                <div id="txt">
+                    <p>Playlist</p>
+                </div>
+            </div>
+        </div>
+        <div id="menu2">
+            <a href="../../pdw yolanda/cobac.html" style="text-decoration: none; color:#42210B">
+                <div class="tempat">
+                    <div id="txt">
+                        <p>New Realese</p>
+                    </div>
+            </a>
+        </div>
+        <div class="tempat">
+                <a href="../../pdw yolanda/genre.html" style="text-decoration: none; color:#42210B">
+            <div id="txt">
+                <p>Trending</p>
+            </div>
+            </a>
+        </div>
+        <div class="tempat">
+            <div id="txt">
+                <p>Popular</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="bar">
+        <div id="kotak">
+            <img src="../Logo/produkxxhdpi.png" width="100%">
+        </div>
+        <br>
+        <div id="kotak1">
+            <img src="../Logo/headset.png" class="iklan" height="100%">
+        </div>
+    </div>
+
+    <div class="isi">
+        <div id="recommend">
+            <div class="tulisan1">
+                <p>Recommend for you</p>
+            </div>
+            <div class="wadahAlbum">
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/album3.jpg" width="100%">
+                    </div>
+                    <p class="bum">Karenamu</p>
+                    <p class="bum2">Rahmania Astrini</p>
+                </div>
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/album5.jpg" width="100%">
+                        <p class="bum">Easy</p>
+                        <p class="bum2">Mac Eyres</p>
+                    </div>
+                </div>
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/2.jpg" width="100%">
+                        <p class="bum">Best Part</p>
+                        <p class="bum2">Daniel Caesar</p>
+                    </div>
+                </div>
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/3.jpg" width="100%">
+                        <p class="bum">Polaroid</p>
+                        <p class="bum2">the Chainsmoker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recent">
+            <div class="tulisan2">
+                <p>Recent</p>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+            <div class="bgn">
+                <div class="kn">
+                    <p style="font-size:12px">Karenamu</p>
+                    <p style="font-size:9px;">Rahmania Astrini</p>
+                </div>
+                <div class="kr">
+                    <img src="../icon/Like.png" style="display:inline-block" height="10px">
+                    <p style="display:inline-block; font-size: 9px">3:20</p>
+                </div>
+            </div>
+        </div>
+        <div id="only">
+            <div class="tulisan1">
+                <p>Only On Nirmana Music</p>
+            </div>
+            <div class="WadahAlbum">
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/album14.jpg" width="100%">
+                        <p class="bum">POP</p>
+                    </div>
+                </div>
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/album2.jpg" width="100%">
+                        <p class="bum">JAZZ</p>
+                    </div>
+                </div>
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/album13.jpg" width="100%">
+                        <p class="bum">R&B</p>
+                    </div>
+                </div>
+                <div class="apa">
+                    <div class="wdh">
+                        <img src="./album/1.jpg" width="100%">
+                        <p class="bum">ROCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="album">
+        <img src="./album/album1.jpg" width="100%">
+    </div>
+
+    <div class="audioPlayer">
+        <div class="wadah">
+            <div id="judul">
+                <p style="display:inline-block">Its Amazing</p>
+                <div class="aikon" id="like">
+                    <img src="../icon/Liked.png" height="100%">
+                </div>
+            </div>
+            <div id="artis">
+                <p>Rahmania Astrini</p>
+            </div>
+        </div>
+        <audio id="musik" src="../itsAmazing.mp3"></audio>
+        <div class="wadah2">
+            <div class="aikon" id="shuffle">
+                <img src="../icon/Shuffle.png" width="100%">
+            </div>
+            <div class="aikon" id="previous">
+                <img src="../icon/Previous.png" width="100%">
+            </div>
+            <div class="aikon" id="playy">
+                <img src="../icon/Play.png" id="play" onclick="Mulai()" width="100%">
+            </div>
+            <div class="aikon" id="next">
+                <img src="../icon/Next.png" width="100%">
+            </div>
+            <div class="aikon" id="loop">
+                <img src="../icon/Loop.png" width="100%">
+            </div>
+            <div class="dura">
+                <div class="aikon" id="menit">
+                    <p>0:00</p>
+                </div>
+                <div class="aikon" id="durasi">
+                </div>
+                <div class="aikon" id="menit">
+                    <p>3:28</p>
+                </div>
+            </div>
+        </div>
+        <div class="wadah3">
+            <div class="aikon" id="suara">
+                <img src="../icon/Volume.png" width="100%">
+            </div>
+            <div id="volume">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

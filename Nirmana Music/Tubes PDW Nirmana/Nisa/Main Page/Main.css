@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    height: 110vh;
+    width: 85vw;
+    color: rgb(66, 33, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navkanan {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    width: 160px;
+    background-color: #EC9C83;
+}
+
+#logo {
+    border-bottom: 5px solid #A05B6C;
+    height: 50px;
+    width: 50%;
+    padding: 5%;
+    padding-left: 28px;
+    padding-right: 0px;
+    margin-left: 13%;
+}
+
+#menu1,
+#menu2 {
+    margin-left: 13%;
+    width: 50%;
+    padding: 7%;
+    padding-top: 6%;
+    height: 175px;
+}
+
+#menu2 {
+    border-top: 5px solid #A05B6C;
+    padding-top: 4%;
+}
+
+.tempat {
+    margin-bottom: 10px;
+}
+
+#aikon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+#txt {
+    display: inline-block;
+    font-size: 12px;
+}
+
+ul,
+li {
+    text-decoration: none;
+}
+
+.bar {
+    margin-left: 162px;
+    top: 0;
+    display: inline-block;
+    background-color: #F2E7E4;
+    width: 102%;
+    height: 45%;
+}
+
+
+#kotak,
+#kotak1 {
+    display: inline-block;
+    height: 92%;
+    margin-left: 2%;
+    width: 30%;
+    /* border: 1px solid #42210B; */
+}
+
+#kotak {
+    margin-top: 5%;
+}
+
+#kotak1 {
+    float: right;
+    margin-top: -28%;
+    margin-right: 5%;
+}
+
+.iklan {
+    margin-left: 15%;
+}
+
+input[type=text] {
+    border: 3px solid #42210B;
+    border-radius: 15px;
+    height: 10px;
+    font-size: 10px;
+    padding: 7px;
+}
+
+.lol {
+    width: 65%;
+    /* border: 1px solid #42210B; */
+}
+
+#akun,
+#setting,
+#mail {
+
+    margin-bottom: 18px;
+    height: 8%;
+    width: 100%;
+}
+
+.isi {
+    display: inline-block;
+    margin-left: 162px;
+    /* border: 1px solid #42210B; */
+    width: 100%;
+    height: 100%;
+}
+
+.recent {
+    float: right;
+    display: inline-block;
+    margin: 3%;
+    border: 5px solid #A05B6C;
+    border-radius: 25px;
+    width: 20%;
+    height: 74%;
+    background-color: #EC9C83;
+}
+
+#recommend,
+#only {
+    margin-top: 3%;
+    margin-right: 0;
+    margin-left: 5%;
+    /* border: 1px solid #42210B; */
+    width: 63%;
+    height: 35%;
+}
+
+.bum,
+.bum2 {
+    text-align: center;
+}
+
+.bum {
+    font-size: 11px;
+}
+
+.bum2 {
+    font-size: 9px;
+}
+
+#recommend {
+    display: inline-block;
+}
+
+.tulisan1,
+.tulisan2 {
+    font-weight: bold;
+    color: #42210B;
+    font-size: 20px;
+    /* border: 1px solid rgb(63, 48, 44); */
+    width: 100%;
+}
+
+.tulisan2 {
+    width: 93%;
+    padding: 4%;
+    border-bottom: 3px solid #42210B;
+}
+
+.wadahAlbum {
+    height: 100%;
+    width: 100%;
+}
+
+.wdh {
+    margin: 5%;
+    /* border: 2px solid #42210B; */
+    width: 85%;
+}
+
+.apa {
+    display: inline-block;
+    height: 80%;
+    width: 20%;
+    margin-right: 3%;
+    margin-top: 2%;
+    border: 3px solid #42210B;
+}
+
+.bgn {
+    margin: auto;
+    width: 95%;
+    height: 10%;
+    border-bottom: 2px solid #A05B6C
+}
+
+.kn,
+.kr {
+    display: inline-block;
+    /* border: 2px solid #A05B6C; */
+    margin: 5px;
+    width: 40%;
+    height: 70%;
+    text-align: left;
+}
+
+.kr {
+    float: right;
+    width: 25%;
+}
+
+.album {
+    position: fixed;
+    bottom: 0;
+    width: 160px;
+    height: 38%;
+}
+
+.audioPlayer {
+    position: fixed;
+    bottom: 0;
+    background-color: #A05B6C;
+    width: 100%;
+    height: 11%;
+}
+
+.wadah {
+    display: inline-block;
+    margin: 15px;
+    width: 19vw;
+    /* border: 1px solid #F2E7E4; */
+}
+
+.wadah2 {
+    position: absolute;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 5%;
+    width: 45vw;
+    height: 7vh;
+}
+
+.wadah3 {
+    float: right;
+    display: inline-block;
+    margin: 1%;
+    margin-right: 5%;
+    width: 11vw;
+    height: 5vh;
+}
+
+#judul,
+#artis {
+    width: 11vw;
+}
+
+#judul {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 13px;
+    /* border: 1px solid #F2E7E4; */
+    width: 200px;
+    height: 20px;
+}
+
+#like {
+    height: 13px;
+}
+
+#artis {
+    margin-top: 3px;
+    color: #FBB03B;
+    font-size: 11px;
+}
+
+.aikon {
+    margin-left: 10px;
+    display: inline-block;
+    height: 9px;
+    width: 15px;
+}
+
+#shuffle {
+    margin-left: 37%;
+}
+
+.dura {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    height: 55%;
+}
+
+#menit,
+#durasi {
+    margin-top: 0;
+}
+
+#durasi {
+    width: 80%;
+    height: 5px;
+    background-color: #F2E7E4;
+}
+
+#suara {
+    margin-top: 10px;
+    width: 30px;
+}
+
+#menit {
+    margin-right: 2%;
+    color: aliceblue;
+    font-size: 11px;
+}
+
+#volume {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid #42210B;
+    background-color: #42210B;
+    border-radius: 25px;
+    width: 7%;
+    height: 8%;
+}
+
+.music {
+    display: inline-block;
+    border: 1px solid #F2E7E4;
+    width: 10vw;
+    height: 0%;
+}
+
+
+.navAtas {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 88%;
+    margin-left: 12%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 0;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.user {
+    padding-top: 6px;
+    padding-right: 6px;
+    float: right;
+    font-family: century gothic;
+}
+
+.cari {
+    padding: 5px 15px 5px 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-family: century gothic;
+    width: 100px;
+    background-color: rgba(249, 250, 250, 0.8);
+}
+
+.dropbtn {
+    width: 100%;
+    padding-left: 17%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+    float: right;
+    margin-right: 5%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 5px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding-top: 8px;
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
+}
+
+.dropdown-content a:hover {
+    width: 50%;
+    height: 50%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* .ikon {
+    width: 100%;
+    height: 100%;
+}
+
+.ikon1 {
+    width: 130%;
+    height: 130%;
+} */
+
+.ikon2 {
+    /* float: right;
+    margin-right: 25%; */
+    width: 45%;
+    height: 60%;
+}

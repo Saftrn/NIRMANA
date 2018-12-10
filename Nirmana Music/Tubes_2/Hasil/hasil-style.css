@@ -1,0 +1,43 @@
+body    {
+    font-family: calibri;
+    margin: 0;
+}
+.header{
+	padding: 2.5vh 0 2.5vh 15%;
+	background-color: grey;
+}
+.utama {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.poto {
+    width : 20vw;
+}
+.star{
+	width : 1.5vw;
+}
+.pin{
+	width : 1.5vw;
+}
+.abu-abu{
+	color: grey;
+}
+.harga{
+	color: #CA6A39 ;
+}
+table{
+	overflow-x: auto;
+	width : 100%;
+	margin-top: 12vh;
+	border-collapse: collapse;
+}
+tr{
+	width: 80%;
+	background-color: #F4F5F6;
+}
+td{
+	border: 1px solid #E3E3E3;
+}
+.td{
+	padding: 0 10vh 0 10vh;
+}

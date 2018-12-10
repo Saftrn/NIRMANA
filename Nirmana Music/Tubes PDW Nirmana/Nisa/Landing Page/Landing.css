@@ -1,0 +1,169 @@
+* {
+    font-family: Century Gothic;
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+    height: 500vh;
+    width: 98vw;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #9F5B6C;
+}
+
+.logo,
+.pilih {
+    margin: 1%;
+    height: 50%;
+    /* border: 2px solid white; */
+    display: inline-block;
+}
+
+.logo {
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.pilih {
+    margin-right: 5%;
+    width: 50%;
+    float: right;
+    /* border: 2px solid white; */
+}
+
+.lol1,
+.lol2 {
+    width: 20%;
+    float: right;
+    margin-right: 1%;
+    height: 5vh;
+}
+
+.lol1:hover {
+    background-color: bisque;
+    color: #5E4713;
+}
+
+.lol2:hover {
+    background-color: bisque;
+    color: #5E4713;
+}
+
+.lol1 {
+    background-color: #65BABF;
+}
+
+.lol2 {
+    background-color: #8399EA;
+}
+
+input {
+    box-sizing: border-box;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+}
+
+.isi {
+    height: 85%;
+    /* border: 5px solid #9F5B6C; */
+}
+
+.promotion {
+    /* border: 3px solid #9F5B6C; */
+    margin-left: 11%;
+    margin-top: 5%;
+    height: 25%;
+    width: 78%;
+    background-image: url("./logo/bagian3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.b1,
+.b2,
+.b3 {
+    margin-top: 40%;
+    background-color: #5E4713;
+    border: 2px solid #5E4713;
+}
+
+.b1 {
+    margin-left: 5%;
+    width: 180px;
+    height: 50px;
+    margin-right: 15%;
+}
+
+.b1:hover {
+    margin-left: 44px;
+    width: 195px;
+    height: 55px;
+    margin-right: 14%;
+}
+
+.b2 {
+    width: 230px;
+    height: 65px;
+    margin-right: 14%;
+}
+
+.b2:hover {
+    margin-left: -1%;
+    margin-right: 13%;
+    width: 250px;
+    height: 70px;
+}
+
+.b3 {
+    width: 185px;
+    height: 50px;
+}
+
+.b3:hover {
+    margin-left: -5px;
+    width: 195px;
+    height: 55px;
+}
+
+.footer {
+    padding: 2%;
+    padding-left: 10%;
+    height: 15%;
+    width: 101%;
+    background-color: #9F5B6C;
+}
+
+
+.mark,
+.relative {
+    border: 1px solid white;
+    margin:
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(226, 192, 111);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(219, 185, 105);
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Detail VIlla</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="nav-style.css">
+			<link rel="stylesheet" type="text/css" href="detail-style.css">
+			
+		</head>
+		<body>
+            <div class="nav">
+                <img src="../icon/MyVilla.png" class="logo">
+                <div class="right">
+                    <a href="#">Cara Pesan</a>
+                    <a href="#" style="color:#af4f29">Login</a>
+                    <a href="#">Register</a>                   
+                </div>
+            </div>
+
+            <div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 5</div>
+				  		<img src="../3. Tjendana Villa/1.jpg" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 5</div>
+					<img src="../3. Tjendana Villa/2.jpg" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+				  	<div class="numbertext">3 / 5</div>
+					  <img src="../3. Tjendana Villa/3.jpeg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				  	<div class="numbertext">4 / 5</div>
+					  <img src="../3. Tjendana Villa/4.jpeg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				  	<div class="numbertext">5 / 5</div>
+					  <img src="../3. Tjendana Villa/5.jpeg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div><br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span> 
+			</div>
+			<div class="detail">
+				<span class="nama">Sari Villa</span> 
+			    <img class="star" src="../icon/star.png">
+	            <img class="star" src="../icon/star.png">
+	            <img class="star" src="../icon/star.png">
+	            <img class="star" src="../icon/star.png">
+                <img class="star" src="../icon/star.png">
+                <br>
+                <img class="pin" src="../icon/pin.png"> Jl. Patriot No 154 Cicadas, Bandung, Jawa Barat
+                <hr><br>
+                Fasilitas:<br><br>
+                <div class="fasilitas">
+                	<div class="col">
+                		<img class="icon" src="../icon/ac.png" width="50vw">
+                	</div>
+                	<div class="col">
+                		<img class="icon" src="../icon/wifi.png" width="50vw">
+                	</div>
+					<div class="col">
+                		<img class="icon" src="../icon/parkir.png" width="50vw">
+                	</div>
+				</div>
+				<form action="../1.data pemesan/datapemesan.html">
+					<input class="pesan" type="submit" value="Pesan Sekarang">
+				</form>
+			</div>
+
+		<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+			</script>
+		</body>
+	</html>

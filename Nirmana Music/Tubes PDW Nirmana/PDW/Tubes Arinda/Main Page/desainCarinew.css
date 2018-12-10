@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    background-image: url("../icon/d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*css navigasi kanan*/
+.navkanan {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    width: 12%;
+    background-color:rgba( 72, 209, 204, 0.7);
+}
+#logo {
+    border-bottom: 5px solid #005F5B;
+    height: 50px;
+    width: 50%;
+    padding: 5%;
+    padding-left: 28px;
+    padding-right: 0px;
+    margin-left: 13%;
+}
+#menu1,
+#menu2 {
+    margin-left: 13%;
+    width: 55%;
+    padding: 7%;
+    padding-top: 6%;
+    height: 25%;
+}
+#menu2 {
+    border-top: 5px solid #005F5B;
+    padding-top: 5%;
+    margin-top: 15%;
+}
+.tempat {
+    margin-bottom: 10px;
+}
+#aikon {
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+}
+#txt {
+    display: inline-block;
+    font-size: 65%;
+}
+
+.album {
+    position: fixed;
+    top: 63%;
+    bottom: 0;
+    width: 12%;
+    height: 35%;
+}
+/*css navigasi bawah*/
+.audioPlayer {
+    position: fixed;
+    bottom: 0;
+    background-color : rgba(47,79,79,0.5);
+    width: 100%;
+    height: 11%;
+}
+.wadah {
+    display: inline-block;
+    margin: 15px;
+    width: 19vw;
+}
+.wadah2 {
+    position: absolute;
+    display: inline-block;
+    margin: 1%;
+    margin-left: 5%;
+    width: 45vw;
+    height: 7vh;
+}
+
+.wadah3 {
+    float: right;
+    display: inline-block;
+    margin: 1%;
+    margin-right: 5%;
+    width: 11vw;
+    height: 5vh;
+}
+
+#judul,
+#artis {
+    font-family: 65%;
+    margin-top: 2%;
+}
+
+#judul {
+    font-weight: bold;
+    color: white;
+    font-size: 90%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 200px;
+    height: 20px;
+}
+
+#like {
+    height: 13px;
+}
+
+#artis {
+    margin-top: 3px;
+    color: white;
+    font-size: 11px;
+}
+
+.aikon {
+    margin-left: 2%;
+    display: inline-block;
+    height: 3%;
+    width: 3%;
+}
+
+#shuffle {
+    margin-left: 37%;
+}
+
+.dura {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    height: 55%;
+}
+
+#menit,
+#durasi {
+    margin-top: 0;
+}
+
+#durasi {
+    width: 80%;
+    height: 5px;
+    background-color: #F2E7E4;
+}
+
+#suara {
+    margin-top: 10px;
+    width: 30px;
+}
+
+#menit {
+    margin-right: 2%;
+    color: aliceblue;
+    font-size: 11px;
+}
+
+#volume {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    width: 7%;
+    height: 8%;
+}
+
+.music {
+    display: inline-block;
+    border: 1px solid #F2E7E4;
+    width: 10vw;
+    height: 0%;
+}
+/*css isi*/
+.barCari{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.cari{
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 38%;
+    position: fixed;
+    border : 2px solid white;
+    padding: 3% 5% 3% 5%;
+    background-color: rgba(47,79,79,0.5);
+    width: 30%;
+    height: 30%;
+}
+.cari:hover{
+    background-color: rgba(112, 128, 144,0.5);
+}
+.fontCari{
+    font-family: century gothic;
+    color: white;
+}
+#txt a{
+    text-decoration: none;
+    color: black;
+}
+#txt a:hover{
+    background-color: rgba(112, 128, 144,0.5);
+}
+
+.navAtas{
+    position: fixed;
+    width: 88%;
+    margin-left: 12%;
+    padding: 2%;
+    padding-right: 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.user{
+    padding-top: 6px;
+    padding-right: 6px;
+    float: right;
+    font-family: century gothic;
+    color: white;
+}
+input{
+    padding: 5px 15px 5px 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-family: century gothic;
+    background-color: rgba(255,255,255, 0.5);
+}
+.dropbtn{
+    width: 100%;
+    padding-left: 17%;
+}
+.dropdown{
+    position: relative;
+    display: inline;
+    float: right;
+    margin-right: 5%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 5px;
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    -webkit-transition: width 2s height 2s;
+    transition: width 2s height 2s;
+}
+.dropdown-content a:hover{
+    width: 135%;
+    height: 135%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.ikon{
+    width:100%;
+    height: 100%;
+}
+.ikon1{
+    width: 130%;
+    height: 130%;
+}
