@@ -1,0 +1,5 @@
+1) ketua kelompok membuat repository dengan nama project
+2) kemudian ketua kelompok menginvite setiap anggota pada repository dengan masuk pada pilihan setiing di repository, kemudian pilih colabolator, kemudian add masing masing anggota.
+3) anggota menerima undangan kolaborasi, untuk mengupload file dapat di lakukan dengan cara berikut:
+
+1) buat file baru yang kemudian akan di upload ke repository.
